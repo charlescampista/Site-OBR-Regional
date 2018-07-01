@@ -348,3 +348,7 @@ function buscarEstacionamentos() {
 
 }
 
+function teste(){
+    alert("It works");
+}
+
