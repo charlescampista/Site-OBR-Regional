@@ -1,6 +1,7 @@
 
 let raioBusca = '1000';
 let iconeMarcadorFeso = '../images/icons/pin.png';
+let idMapaModal = 'mapa-modal';
 
 //DADOS LOCALIZAÇÃO UNIFESO 
 
@@ -61,7 +62,7 @@ function buscarHoteis() {
         zoom: 15
     }
 
-    let mapa = new google.maps.Map(document.getElementById('mapa-restaurantes'), prop);
+    let mapa = new google.maps.Map(document.getElementById(idMapaModal), prop);
 
     var marcadorUnifeso = new google.maps.Marker({
         map: mapa,
@@ -70,15 +71,15 @@ function buscarHoteis() {
     });
 
 
-    // request = {
-    //     location: local,
-    //     radius: raioBusca,
-    //     type: ['hotel']
-    // };
+    request = {
+        location: local,
+        radius: raioBusca,
+        type: ['hotel']
+    };
 
 
     service = new google.maps.places.PlacesService(mapa);
-    // service.nearbySearch(request, callback);
+    service.nearbySearch(request, callback);
 
     var requestPousada = {
         location: local,
@@ -136,7 +137,7 @@ function buscarHospitais() {
         zoom: 15
     }
 
-    let mapa = new google.maps.Map(document.getElementById('mapa-restaurantes'), prop);
+    let mapa = new google.maps.Map(document.getElementById(idMapaModal), prop);
     service = new google.maps.places.PlacesService(mapa);
 
     // Marcando a feso
@@ -203,7 +204,7 @@ function buscarRestaurantes() {
         zoom: 15
     }
 
-    let mapa = new google.maps.Map(document.getElementById('mapa-restaurantes'), prop);
+    let mapa = new google.maps.Map(document.getElementById(idMapaModal), prop);
     // Marcando a feso
     var marcadorUnifeso = new google.maps.Marker({
         map: mapa,
@@ -282,7 +283,7 @@ function buscarEstacionamentos() {
         zoom: 15
     }
 
-    let mapa = new google.maps.Map(document.getElementById('mapa-restaurantes'), prop);
+    let mapa = new google.maps.Map(document.getElementById(idMapaModal), prop);
     // Marcando a feso
     var marcadorUnifeso = new google.maps.Marker({
         map: mapa,
