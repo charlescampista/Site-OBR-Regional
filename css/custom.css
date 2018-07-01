@@ -219,7 +219,8 @@ header .header-content .header-content-inner p {
     color: #222;
 }
 
-.navbar-default .nav > li>a:hover{
+.navbar-default .nav > li>a:hover,
+.navbar-default .nav>li>a:focus:hover {
     color: var(--verde-principal);
 }
 
@@ -257,7 +258,7 @@ header .header-content .header-content-inner p {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: var(--verde-principal);
     }
 
     .navbar-default.affix {
