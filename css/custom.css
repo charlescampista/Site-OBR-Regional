@@ -376,6 +376,11 @@ fieldset[disabled] .btn-default.active {
     padding: 15px 30px;
 }
 
+.btn-mapas{
+    background-color: var(--verde-principal);
+    border-color: var(--verde-principal);
+}
+
 .btn-black:hover,
 .btn-white:hover{
     background-color: var(--verde-principal);
@@ -442,8 +447,6 @@ fieldset[disabled] .btn-primary.active {
 .btn {
     border-radius: 300px;
     text-transform: uppercase;
-    background-color: var(--verde-principal);
-    border-color: var(--verde-principal);
 }
 
 .btn-lg {
