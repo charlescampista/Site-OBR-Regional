@@ -350,5 +350,7 @@ function buscarEstacionamentos() {
 
 function teste(){
     alert("It works");
+    console.log('It works');
+    
 }
 
