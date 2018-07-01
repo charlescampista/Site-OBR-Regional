@@ -6,6 +6,7 @@
     --tamanho-mapa: 300px;
     --backgroundp-principal: '../images/outras/robotica-background.png';
     --cor-sombreamento: #000;
+    --footer: #000;
 }
 
 
@@ -174,7 +175,7 @@ header .header-content .header-content-inner p {
 
 .page-footer .contact {
 	padding: 100px 0;
-	background-color: var(--verde-principal);
+	background-color: var(--footer);
 	color: #fff;
 	}
 
