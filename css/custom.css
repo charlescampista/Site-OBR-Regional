@@ -443,6 +443,7 @@ fieldset[disabled] .btn-primary.active {
     border-radius: 300px;
     text-transform: uppercase;
     background-color: var(--verde-principal);
+    border-color: var(--verde-principal);
 }
 
 .btn-lg {
