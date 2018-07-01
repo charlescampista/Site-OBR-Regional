@@ -245,12 +245,19 @@ Although you can use them, for a more unique website, replace these images with 
                             <label for="email">O que você procura?</label>
                             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
                         </div>
-                        <input type="button" value="Submit" onclick="teste()"/>
+                        <input type="button" value="Submit" onclick="teste()" />
                     </form>
                 </div>
 
                 <div class="col-md6 col-sm-6 text-center">
-
+                    <form action="">
+                        <div class="form-group">
+                            <label for="email">Defina o raio de busca</label>
+                            <input id="seletor-raio" type='range' value='50' max='3000'>
+                            <span id="valor-raio">50</span>
+                        </div>
+                        <input type="button" value="Submit" onclick="teste()" />
+                    </form>
                 </div>
             </div>
         </div>
