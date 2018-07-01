@@ -170,8 +170,9 @@ header .header-content .header-content-inner p {
 
 
 .page-footer {
-	text-align: center;
-	}
+    background-color: var(--footer);
+    text-align: center;
+}
 
 .page-footer .contact {
 	padding: 100px 0;
