@@ -1,16 +1,8 @@
-let raioBusca
-function testarRaioBusca(){
-    alert(raioBusca);
-}
-
-let range = document.getElementById('seletor-raio');
-range.addEventListener('input', function () {
-	raioBusca = this.value;
-})
-
-
 let iconeMarcadorFeso = '../images/icons/pin.png';
 let idMapaModal = 'mapa-modal';
+function testarRaioBusca(){
+    alert(document.getElementById('valor-raio').innerHTML);
+}
 
 //DADOS LOCALIZAÇÃO UNIFESO 
 
@@ -82,7 +74,7 @@ function buscarHoteis() {
 
     request = {
         location: local,
-        radius: raioBusca,
+        radius: document.getElementById('valor-raio').innerHTML,
         type: ['hotel']
     };
 
