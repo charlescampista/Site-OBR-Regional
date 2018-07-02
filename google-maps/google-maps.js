@@ -226,7 +226,7 @@ function buscarRestaurantes() {
 
     request = {
         location: local,
-        radius: 1,
+        radius: '1',
         type: ['restaurant']
     };
 
@@ -236,25 +236,25 @@ function buscarRestaurantes() {
 
     var requestComida = {
         location: local,
-        radius: 1,
+        radius: '1',
         query: 'comida'
     };
 
     var requestBar = {
         location: local,
-        radius: 1,
+        radius: '1',
         query: 'restaurante'
     };
 
     var requestRestaurante = {
         location: local,
-        radius: 1,
+        radius: '1',
         query: 'lanchonete'
     };
 
     var requestRestaurante = {
         location: local,
-        radius: 1,
+        radius: '1',
         query: 'bar'
     };
 
