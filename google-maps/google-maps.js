@@ -32,7 +32,8 @@ function startMap() {
         {
             position: unifeso,
             map: mapUnifeso,
-            // animation: google.maps.Animation.BOUNCE
+            animation: google.maps.Animation.BOUNCE,
+            icon: iconeMarcadorFeso
         }
     );
 
