@@ -1,18 +1,17 @@
 let iconeMarcadorFeso = '../images/icons/pin.png';
 let idMapaModal = 'mapa-modal';
-
-
+let raioBusca = '2000'
 //CODIGO QUE MANIPULA O VALOR DO RAIO DE BUSCA
-let range = document.getElementById('seletor-raio');
-let valor = document.getElementById('valor-raio');
+// let range = document.getElementById('seletor-raio');
+// let valor = document.getElementById('valor-raio');
 
-range.addEventListener('input', function () {
-	valor.textContent = this.value;
-});
+// range.addEventListener('input', function () {
+// 	valor.textContent = this.value;
+// });
 
-function testarRaioBusca(){
-    alert('O valor agora é '+document.getElementById('valor-raio').innerHTML);
-}
+// function testarRaioBusca(){
+//     alert('O valor agora é '+document.getElementById('valor-raio').innerHTML);
+// }
 
 //DADOS LOCALIZAÇÃO UNIFESO 
 
@@ -85,7 +84,7 @@ function buscarHoteis() {
 
     request = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         type: ['hotel']
     };
 
@@ -95,19 +94,19 @@ function buscarHoteis() {
 
     var requestPousada = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'pousada'
     };
 
     var requestHotel = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'hotel'
     };
 
     var requestHostel = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'hostel'
     };
 
@@ -162,19 +161,19 @@ function buscarHospitais() {
 
     var requestComida = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'primeiros socorros'
     };
 
     var requestBar = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'hospital'
     };
 
     var requestRestaurante = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'posto de saude'
     };
 
@@ -226,7 +225,7 @@ function buscarRestaurantes() {
 
     request = {
         location: local,
-        radius: '1',
+        radius: raioBusca,
         type: ['restaurant']
     };
 
@@ -236,25 +235,25 @@ function buscarRestaurantes() {
 
     var requestComida = {
         location: local,
-        radius: '1',
+        radius: raioBusca,
         query: 'comida'
     };
 
     var requestBar = {
         location: local,
-        radius: '1',
+        radius: raioBusca,
         query: 'restaurante'
     };
 
     var requestRestaurante = {
         location: local,
-        radius: '1',
+        radius: raioBusca,
         query: 'lanchonete'
     };
 
     var requestRestaurante = {
         location: local,
-        radius: '1',
+        radius: raioBusca,
         query: 'bar'
     };
 
@@ -305,7 +304,7 @@ function buscarEstacionamentos() {
     
     request = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         type: ['parking']
     };
 
@@ -315,19 +314,19 @@ function buscarEstacionamentos() {
 
     var requestComida = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'estacionamento'
     };
 
     var requestBar = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'rotativo'
     };
 
     var requestRestaurante = {
         location: local,
-        radius: document.getElementById('valor-raio').innerHTML,
+        radius: raioBusca,
         query: 'lava jato'
     };
 
