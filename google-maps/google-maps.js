@@ -1,5 +1,12 @@
 
-let raioBusca = '1000';
+let raioBusca;
+
+let range = document.getElementById('seletor-raio');
+range.addEventListener('input', function () {
+	raioBusca = this.value;
+})
+
+
 let iconeMarcadorFeso = '../images/icons/pin.png';
 let idMapaModal = 'mapa-modal';
 
