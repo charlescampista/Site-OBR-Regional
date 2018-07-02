@@ -1,5 +1,15 @@
 let iconeMarcadorFeso = '../images/icons/pin.png';
 let idMapaModal = 'mapa-modal';
+
+
+//CODIGO QUE MANIPULA O VALOR DO RAIO DE BUSCA
+let range = document.getElementById('seletor-raio');
+let valor = document.getElementById('valor-raio');
+
+range.addEventListener('input', function () {
+	valor.textContent = this.value;
+});
+
 function testarRaioBusca(){
     alert('O valor agora é '+document.getElementById('valor-raio').innerHTML);
 }
