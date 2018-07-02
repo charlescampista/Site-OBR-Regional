@@ -1,10 +1,10 @@
 
-let raioBusca;
+let raioBusca = 0;
 
-let range = document.getElementById('seletor-raio');
-range.addEventListener('input', function () {
-	raioBusca = this.value;
-})
+// let range = document.getElementById('seletor-raio');
+// range.addEventListener('input', function () {
+// 	raioBusca = this.value;
+// })
 
 
 let iconeMarcadorFeso = '../images/icons/pin.png';
