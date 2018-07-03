@@ -71,6 +71,15 @@ header .header-content .header-content-inner p {
 }
 
 
+#rodape-feso{
+    border-right: solid 2px var(--branco);
+}
+
+#rodape-obr{
+    border-left: solid 2px var(--branco);
+}
+
+
 
 @media(min-width:768px) {
     header {
