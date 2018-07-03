@@ -80,6 +80,11 @@ header .header-content .header-content-inner p {
     width: 20%;
 }
 
+#rodape-feso,
+#rodape-obr{
+    color: var(--branco);
+}
+
 
 
 @media(min-width:768px) {
