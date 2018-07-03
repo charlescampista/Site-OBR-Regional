@@ -85,6 +85,11 @@ header .header-content .header-content-inner p {
     color: var(--branco);
 }
 
+#developer{
+    background-color: var(--branco);
+    color:  var(--preto);
+}
+
 
 
 @media(min-width:768px) {
