@@ -79,6 +79,11 @@ header .header-content .header-content-inner p {
     border: solid 2px var(--branco);
 }
 
+#rodape-feso img,
+#rodape-obr img{
+    margin:  0 auto;
+}
+
 
 
 @media(min-width:768px) {
