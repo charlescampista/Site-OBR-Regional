@@ -95,6 +95,10 @@ header .header-content .header-content-inner p {
     color: var(--preto);
 }
 
+#developer a:hover{
+    text-decoration: underline;
+}
+
 
 
 @media(min-width:768px) {
