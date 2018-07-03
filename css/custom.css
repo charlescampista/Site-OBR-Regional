@@ -90,6 +90,11 @@ header .header-content .header-content-inner p {
     color:  var(--preto);
 }
 
+#developer a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
 
 
 @media(min-width:768px) {
