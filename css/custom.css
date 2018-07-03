@@ -70,6 +70,8 @@ header .header-content .header-content-inner p {
     color: black;
 }
 
+
+
 @media(min-width:768px) {
     header {
         min-height: 100%;
@@ -483,4 +485,11 @@ img::-moz-selection {
 
 .bg-primary {
     background-color: var(--verde-principal);
+}
+
+/* DISPOSITIVOS PEQUENOS */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .imagem-principal{
+        margin: 5%;
+    }
 }
