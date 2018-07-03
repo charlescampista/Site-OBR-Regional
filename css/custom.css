@@ -72,11 +72,11 @@ header .header-content .header-content-inner p {
 
 
 #rodape-feso{
-    border-right: solid 2px var(--branco);
+    border-right: solid 1px var(--branco);
 }
 
 #rodape-obr{
-    border-left: solid 2px var(--branco);
+    border-left: solid 1px var(--branco);
 }
 
 #rodape-feso img,
