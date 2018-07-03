@@ -489,7 +489,4 @@ img::-moz-selection {
 
 /* DISPOSITIVOS PEQUENOS */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-    .imagem-principal{
-        margin: 5%;
-    }
 }
