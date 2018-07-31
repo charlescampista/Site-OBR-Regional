@@ -99,6 +99,19 @@ header .header-content .header-content-inner p {
     text-decoration: underline;
 }
 
+#downloads {
+    color: var(--preto);
+}
+
+#downloads a{
+    text-decoration: none;
+    color: var(--preto);
+}
+
+#downloads a:hover{
+    text-decoration: underline;
+}
+
 
 
 @media(min-width:768px) {
