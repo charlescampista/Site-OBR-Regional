@@ -9,6 +9,15 @@
     --footer: #000;
 }
 
+.tabela-destaque{
+    background-color: var(--branco) !important;
+    color: var(--preto) !important;
+}
+
+.tabela-titulo{
+    background-color: var(--preto) !important;
+    color: var(--branco) !important;
+}
 
 html,
 body {
